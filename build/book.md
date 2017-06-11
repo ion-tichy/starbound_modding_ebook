@@ -60,13 +60,9 @@ This will give you the confidence to make your own version of the object and ite
 
 ### TOOLS OF THE TRADE  
 
-Before we start modding, there are few things we will need to do, the first of which is gathering the tool
-required to make basic mods.  
+Before we start modding, there are few things we will need to do, the first of which is gathering the tool required to make basic mods.  
 
-Currently and in the foreseeable future Starbound does not actually offer any tools besides a packer
-and unpacker tool for the assets. Though there is an optional 3rd party tool download for Dungeon
-Creation. But the primary tools required for modding the game need be acquired elsewhere, all of
-which are free and available for all platforms. Though it may not be the same tool for each platform.  
+Currently and in the foreseeable future Starbound does not actually offer any tools besides a packer and unpacker tool for the assets. Though there is an optional 3rd party tool download for Dungeon Creation. But the primary tools required for modding the game need be acquired elsewhere, all of which are free and available for all platforms. Though it may not be the same tool for each platform.  
 ### CODE EDITOR
 When it comes to a code editor there are a few basic requirements:  
 ```
@@ -75,43 +71,32 @@ You will want to avoid Word Document Processors such as Microsoft Word.
 These use special text characters not supported by the game.  
 ```  
 
-Believe it or not that actually is the only requirement when it comes to a code editor. Any other features
-you desire is really up to you. A few recommendations though are:
+Believe it or not that actually is the only requirement when it comes to a code editor. Any other features you desire is really up to you. A few recommendations though are:
   
 #### Windows:
 - Notepad ++ : https://notepad-plus-plus.org/
-    - Notepad++ probably has the lowest learning curve and easiest to operate for new
-users.
+    - Notepad++ probably has the lowest learning curve and easiest to operate for new users.
 - Sublime Text : http://www.sublimetext.com/2
-    - Rich feature set. High learning Curve. Tons of plugins. Evaluation software with no
-time limit.
+    - Rich feature set. High learning Curve. Tons of plugins. Evaluation software with no time limit.
 - Atom : https://atom.io
-    - Atom is an open source completely hackable editor with many features similar to
-sublime.  
+    - Atom is an open source completely hackable editor with many features similar to sublime.  
 
 #### Mac:
 - Sublime Text: https://www.sublimetext.com/2
-    - Rich feature set. High learning Curve. Tons of plugins. Evaluation software with no time
-limit.
+    - Rich feature set. High learning Curve. Tons of plugins. Evaluation software with no time limit.
 - Atom : https://atom.io
-    - Atom is an open source completely hackable editor with many features similar to
-sublime.  
+    - Atom is an open source completely hackable editor with many features similar to sublime.  
 
 #### Linux:
 - Sublime Text: https://www.sublimetext.com/2
-    - Rich feature set. High learning Curve. Tons of plugins. Evaluation software with no time
-limit.
+    - Rich feature set. High learning Curve. Tons of plugins. Evaluation software with no time limit.
 - Atom : https://atom.io
-    - Atom is an open source completely hackable editor with many features similar to
-sublime.  
+    - Atom is an open source completely hackable editor with many features similar to sublime.  
 
-If you don’t wish to download any software you are free to use something such as Microsoft Notepad
-which comes with windows. But you will be missing out on great features provided by the programs
-listed above.  
+If you don’t wish to download any software you are free to use something such as Microsoft Notepad which comes with windows. But you will be missing out on great features provided by the programs listed above.  
 
 ### PIXEL EDITOR
-The next tool we need in our shed is a Pixel Editing tool though there are quite a few graphics editors
-out there we have a few requirements we need to full fill first:  
+The next tool we need in our shed is a Pixel Editing tool though there are quite a few graphics editors out there we have a few requirements we need to full fill first:  
 -  Must be able to export PNG files
 -  Must support Transparency Layers
 -  Must be able to do pixel based editing.  
@@ -119,20 +104,14 @@ out there we have a few requirements we need to full fill first:
 Check the Useful Links at the end of the Book for tutorials on using the tools for Pixel Art.  
 Again like pixel editors any added features are just benefits. A few good options are:
 - GrapfX 2 - http://pulkomandy.tk/projects/GrafX2
-    - A basic pixel editor available for Windows, Mac and Linux. Though not well
-documented and few tutorials exist. Good for advanced users who are confident in
-learning the ropes themselves.
+    - A basic pixel editor available for Windows, Mac and Linux. Though not well documented and few tutorials exist. Good for advanced users who are confident in learning the ropes themselves.
 - Gimp: http://www.gimp.org
-    - Gimp is a Graphics Manipulation Package which is a general purpose tool with an
-extremely rich feature set and thousands of tutorials online. Though for more general
-users this may feel very overwhelming at first.
+    - Gimp is a Graphics Manipulation Package which is a general purpose tool with an extremely rich feature set and thousands of tutorials online. Though for more general users this may feel very overwhelming at first.
 - Paint.Net http://www.getpaint.net/index.html
-    - I personally have not used it, but a few users have recommended it from the
-community.
+    - I personally have not used it, but a few users have recommended it from the community.
 
 ### UNPACKING YOUR ASSETS AND PACKING YOUR MOD
-Before you start modding you have to unpack the assets from the vanilla container. This
-process does not “remove the files” but simply makes a copy of them for you to look at and learn from.  
+Before you start modding you have to unpack the assets from the vanilla container. This process does not “remove the files” but simply makes a copy of them for you to look at and learn from.  
 Any changes to the unpacked assets will not make changes to the game until you make a mod of it.
 Please do not “repack” the assets to replace the vanilla assets file as you will be damaging your game.  
   
@@ -164,26 +143,19 @@ http://community.playstarbound.com/forums/modding.111/?prefix_id=66
 ### PACKING AND UNPACKING TOOLS  
 
 #### WINDOWS
--  GUI Front End - http://community.playstarbound.com/threads/updated-asset-packaging
-unpackaging-gui-frontend-for-1-0.95468/
--  Mod Pack Helper - http://community.playstarbound.com/threads/all-versions-win-linux
-modpackhelper.92473/
+-  GUI Front End - http://community.playstarbound.com/threads/updated-asset-packaging-unpackaging-gui-frontend-for-1-0.95468/
+-  Mod Pack Helper - http://community.playstarbound.com/threads/all-versions-win-linux-modpackhelper.92473/
 
 #### LINUX
-- Mod Pack Helper - http://community.playstarbound.com/threads/all-versions-win-linux
-modpackhelper.92473/
+- Mod Pack Helper - http://community.playstarbound.com/threads/all-versions-win-linux-modpackhelper.92473/
 
 #### MISC
-- StarFuse ( OSX \ Linux ) - http://community.playstarbound.com/threads/alpha-0-4-0-starfuse
-pak-utility-for-linux-os-x.115082/
-    - Tool mounts pak files – and lets you access the files – so you can easily see how mods
-work without having to unpack it.
+- StarFuse ( OSX \ Linux ) - http://community.playstarbound.com/threads/alpha-0-4-0-starfuse-pak-utility-for-linux-os-x.115082/
+    - Tool mounts pak files – and lets you access the files – so you can easily see how mods work without having to unpack it.
 
 ### BASICS OF JSON
-Understanding JSON is fairly straight forward. The quickest way of course is to take the time and look
-through all the vanilla files and see how they are made.   
-There are 3 basic rules to follow to make sure
-you don’t make any mistakes when writing the syntax.  
+Understanding JSON is fairly straight forward. The quickest way of course is to take the time and look through all the vanilla files and see how they are made.   
+There are 3 basic rules to follow to make sure you don’t make any mistakes when writing the syntax.  
 
 1. **Always add a comma to separate each parameter except the last parameter before the endof a bracket.**  
 
@@ -197,26 +169,20 @@ you don’t make any mistakes when writing the syntax.
     }
     ```
       
-    After looking at the example you should easily be able to tell when to use a comma and when not to use
-    at this point.  
+    After looking at the example you should easily be able to tell when to use a comma and when not to use at this point.  
     
 2. **Double quotes are only used for text.**  
-    If you look at the previous example you will notice things like “name”, “price” and “short description”
-    are surrounded by double quotes, as well as “example 1 and 2”. Parameters always will be in double
-    quotes while their values if it is a text field will require them also.
+    If you look at the previous example you will notice things like “name”, “price” and “short description” are surrounded by double quotes, as well as “example 1 and 2”. Parameters always will be in double quotes while their values if it is a text field will require them also.
     
     There are certain values that cannot have quotes: <span stlye="color:red;">Numbers and True or False</span> values.  
     
 3. **Most importantly close brackets in the correct order but in the correct location.**  
-    One of the most common mistakes new users make is either they forget to close a bracket, they close a
-    bracket in the wrong order, or they choose a completely different bracket.
+    One of the most common mistakes new users make is either they forget to close a bracket, they close a bracket in the wrong order, or they choose a completely different bracket.
 
 
 ## YOUR FIRST MOD
 ### INTRODUCTION
-By now you should have unpacked your assets, downloaded the required tools, and have a basic
-understanding of JSON. If you have missed out on any of those things, please go back to the
-appropriate section and complete it before moving on.  
+By now you should have unpacked your assets, downloaded the required tools, and have a basic understanding of JSON. If you have missed out on any of those things, please go back to the appropriate section and complete it before moving on.  
 
 Right click on Starbound in Steam Library -> Properties -> Local Files (tab) -> Browse Local Files.  
 
@@ -231,30 +197,21 @@ The way you name your files and objects is important for 2 major reasons.
 1. To easily identify the errors of items associated with your mod found in the starbound.log
 2. To prevent incompatibility with other mods who may end up using the same name for an item.
 
-Now in Starbound there are actually 2 names associated with each item. One name is the name
-displayed to the player most commonly references as the “shortDescription” the other is the name only
-referenced by the game engine or more commonly known as “itemname” or “objectname”.
+Now in Starbound there are actually 2 names associated with each item. One name is the name displayed to the player most commonly references as the “shortDescription” the other is the name only referenced by the game engine or more commonly known as “itemname” or “objectname”.
 
-A good practice for a naming style is using the name of your mod then the item name for example if we
-made a mod called Black Sheep we could name an item.
+A good practice for a naming style is using the name of your mod then the item name for example if we made a mod called Black Sheep we could name an item.
 ```
 “itemname” : “bsheep_wool”
 ```
 This would clearly tell any modder checking out the starbound.log which mod that item is associated to.
 
 ### SETTING UP YOUR COMPUTER
-If you are a Windows user one important thing you need to do before we begin is make sure you can
-view “Known hidden File Extensions”. You will want to see it to be able to know what file types you are
-dealing with.  
+If you are a Windows user one important thing you need to do before we begin is make sure you can view “Known hidden File Extensions”. You will want to see it to be able to know what file types you are dealing with.  
 http://windows.microsoft.com/en-us/windows/show-hide-file-name-extensions#show-hide-file-name-extensions=windows-7  
 
-Also when learning to mod it is best to start with a fresh universe and character as well as no other
-mods in your mods directory. The reason for this is you want to avoid conflicts with other mods, as well
-as prevent your universe and character from being corrupted as you experiment.  
+Also when learning to mod it is best to start with a fresh universe and character as well as no other mods in your mods directory. The reason for this is you want to avoid conflicts with other mods, as well as prevent your universe and character from being corrupted as you experiment.  
 
-To do this all we need to do is rename your storage folder to anything you want. Then run the game
-once, this will cause a new storage folder to be generated for you. Now anytime you want to play with
-your old universe and files – just rename the new one and rename the old one back to storage
+To do this all we need to do is rename your storage folder to anything you want. Then run the game once, this will cause a new storage folder to be generated for you. Now anytime you want to play with your old universe and files – just rename the new one and rename the old one back to storage
 
 
 ### METADATA FILE
@@ -291,14 +248,12 @@ unpacked\items\tools
 (Where <span style="color:red">unpacked</span> is the location you unpacked your assets to)
 We will be looking specifically at the file <span style="color:red">flashlight.flashlight</span>
 
-Now to understand a parallel directory we need to make an exact same copy of the directory structure
-in our mod. If the new folder you made in your mods directory is called firstMod then it should be:
+Now to understand a parallel directory we need to make an exact same copy of the directory structure in our mod. If the new folder you made in your mods directory is called firstMod then it should be:
 ```
 Starbound\mods\firstMod\items\tools\flashlight.flashlight
 ```
 
-It is extremely important to maintain the directory structure when you alter vanilla files or you will get
-an error claiming a duplicate object is found
+It is extremely important to maintain the directory structure when you alter vanilla files or you will get an error claiming a duplicate object is found
 
 
 ### DIRTY EDITS AND PATCHING
