@@ -5,7 +5,7 @@
             separator: '\n\n',
         },
         dist: {
-            src: '*.md',
+            src: 'src/*.md',
             dest: 'build/book.md'
         },
     },
