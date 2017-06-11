@@ -1,0 +1,23 @@
+{
+  "name": "starbound_modding_ebook",
+  "version": "0.0.0",
+  "description": "Markdown port of Suit's Unofficial Starbound Modding Guide",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ion-tichy/starbound_modding_ebook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ion-tichy/starbound_modding_ebook/issues"
+  },
+  "homepage": "https://github.com/ion-tichy/starbound_modding_ebook"
+}
