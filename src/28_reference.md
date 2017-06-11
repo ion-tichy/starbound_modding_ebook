@@ -4,7 +4,7 @@ Some information in the Index may at some point become outdated, inaccurate or m
 If you find such a mistake please report it in detail here:  
 http://community.playstarbound.com/threads/unofficial-modding-ebook.96671/
 
-###FRAMES FILE AND THE SPRITE SHEET
+### FRAMES FILE AND THE SPRITE SHEET
 
 #### PARAMETERS
 Now we will cover the various parameters seen in the frames file.
