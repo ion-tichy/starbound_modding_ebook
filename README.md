@@ -1,4 +1,5 @@
-Markdown port of Suit's Unofficial Starbound Modding Ebook (http://community.playstarbound.com/resources/unofficial-modding-ebook-2-0.2930/)
+Markdown port of Suit's Unofficial Starbound Modding Ebook (http://community.playstarbound.com/resources/unofficial-modding-ebook-2-0.2930/)    
+Official repository: https://github.com/xxswatelitexx/Starbound_Modding_Ebook/wiki  
 
 Building the document
 ------------
