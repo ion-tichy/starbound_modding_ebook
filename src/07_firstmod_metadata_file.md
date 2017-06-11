@@ -17,11 +17,11 @@ Now type the following code shown on the below and save.
 
 ```json
 {
-"author" : "Mod author name",
-"description" : " Mod description",
-"friendlyName" : "Name displayed in game",
-"name" : "file name",
-"version" : "1"
+    "author" : "Mod author name",
+    "description" : " Mod description",
+    "friendlyName" : "Name displayed in game",
+    "name" : "file name",
+    "version" : "1"
 }
 ```
 If you did everything properly when you go the mod manager (the gear wheel at the bottom right of the screen) you will see your mod listed . If it is not there double check your work.

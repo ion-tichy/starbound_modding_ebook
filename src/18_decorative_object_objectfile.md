@@ -27,8 +27,7 @@ in this following code.
     "novakidDescription" : "A cube.",
     
     "inventoryIcon" : "cube.png",
-    "orientations" : [
-        {
+    "orientations" : [{
             "image" : "cube.png:<color>",
             "imagePosition" : [-8, 0],
             "frames" : 1,
@@ -36,8 +35,7 @@ in this following code.
             "spaceScan" : 0.1,
             "anchors" : [ "bottom" ],
             "collision" : "platform"
-        }
-    ]
+        }]
 }
 ```
 

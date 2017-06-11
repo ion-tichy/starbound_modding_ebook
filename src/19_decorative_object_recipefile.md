@@ -3,12 +3,14 @@ The recipe file tells the game how to craft the object and which objects can cra
 
 ```json
 {
-    "input" : [
-    { "item" : "money",
-    "count" : 1 }
-    ],
-    "output" : { "item" :
-    "fo_cube", "count" : 1 },
+    "input" : [{ 
+        "item" : "money",
+        "count" : 1 
+    }],
+    "output" : { 
+                "item" : "fo_cube", 
+                "count" : 1 
+    },
     "groups" : [ "plain" ]
 }
 ```

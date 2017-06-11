@@ -23,13 +23,14 @@ delete all the contents inside and place this code instead exactly as you see it
 ```json
 [
     {
-    "op": "replace",
-    "path" : "/shortdescription",
-    "value": "Test Flashlight"
-    }, {
-    "op": "replace",
-    "path" : "/lightColor",
-    "value": [100,100,100]
+     "op": "replace",
+     "path" : "/shortdescription",
+     "value": "Test Flashlight"
+    }, 
+    {
+     "op": "replace",
+     "path" : "/lightColor",
+     "value": [100,100,100]
     }
 ]
 ```

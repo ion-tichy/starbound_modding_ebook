@@ -8,7 +8,7 @@ The short story is, it is very important file so do not forget about it.
         "size" : [24, 24],
         "dimensions" : [1, 1],
         "names" : [
-        [ "default" ]
+            [ "default" ]
         ]
     }
 }

@@ -98,10 +98,12 @@ The only difference between a crafting table and a decorative object are these f
         "config" : "/interface/windowconfig/crafting.config",
         "paneLayoutOverride" : {
             "windowtitle" : {
-            "title" : " Iron Crafting Table",
-            "subtitle" : " Heavy duty crafting!",
-            "icon" : {
-                "file" : "/interface/crafting/ironcraftingtable.png"
+                "title" : " Iron Crafting Table",
+                "subtitle" : " Heavy duty crafting!",
+                "icon" : {
+                    "file" : "/interface/crafting/ironcraftingtable.png"
+                }
+            }
         }
     }
 },
@@ -184,14 +186,14 @@ Recipes added through the player.config file will cause that item recipe to be l
 ```json
 [ 
     {
-        "op" : "add",
-        "path" : "/defaultBlueprints/tier1/-",
-        "value" : { "item" : "seblegs" }
+     "op" : "add",
+     "path" : "/defaultBlueprints/tier1/-",
+     "value" : { "item" : "seblegs" }
     },
     {
-        "op" : "add",
-        "path" : "/defaultBlueprints/tier1/-",
-        "value" : { "item" : "sebhelm" }
+     "op" : "add",
+     "path" : "/defaultBlueprints/tier1/-",
+     "value" : { "item" : "sebhelm" }
     } 
 ]
 ```

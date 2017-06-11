@@ -6,11 +6,11 @@ There are 3 basic rules to follow to make sure you don’t make any mistakes whe
 
     Let us look at an example:  
     
-    ```json  
+    ```javascript  
     {
-    "name" : "example 1", <-- comma
-    "price": 10, <-- comma
-    "shortdescription" : "example 2" <-- last line before end of bracket
+        "name" : "example 1", //<-- comma!
+        "price": 10, //<-- comma!
+        "shortdescription" : "example 2" //<-- last line before end of bracket
     }
     ```
       

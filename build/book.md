@@ -161,11 +161,11 @@ There are 3 basic rules to follow to make sure you don’t make any mistakes whe
 
     Let us look at an example:  
     
-    ```json  
+    ```javascript  
     {
-    "name" : "example 1", <-- comma
-    "price": 10, <-- comma
-    "shortdescription" : "example 2" <-- last line before end of bracket
+        "name" : "example 1", //<-- comma!
+        "price": 10, //<-- comma!
+        "shortdescription" : "example 2" //<-- last line before end of bracket
     }
     ```
       
@@ -224,11 +224,11 @@ Now type the following code shown on the below and save.
 
 ```json
 {
-"author" : "Mod author name",
-"description" : " Mod description",
-"friendlyName" : "Name displayed in game",
-"name" : "file name",
-"version" : "1"
+    "author" : "Mod author name",
+    "description" : " Mod description",
+    "friendlyName" : "Name displayed in game",
+    "name" : "file name",
+    "version" : "1"
 }
 ```
 If you did everything properly when you go the mod manager (the gear wheel at the bottom right of the screen) you will see your mod listed . If it is not there double check your work.
@@ -281,13 +281,14 @@ delete all the contents inside and place this code instead exactly as you see it
 ```json
 [
     {
-    "op": "replace",
-    "path" : "/shortdescription",
-    "value": "Test Flashlight"
-    }, {
-    "op": "replace",
-    "path" : "/lightColor",
-    "value": [100,100,100]
+     "op": "replace",
+     "path" : "/shortdescription",
+     "value": "Test Flashlight"
+    }, 
+    {
+     "op": "replace",
+     "path" : "/lightColor",
+     "value": [100,100,100]
     }
 ]
 ```
@@ -504,7 +505,7 @@ The short story is, it is very important file so do not forget about it.
         "size" : [24, 24],
         "dimensions" : [1, 1],
         "names" : [
-        [ "default" ]
+            [ "default" ]
         ]
     }
 }
@@ -572,8 +573,7 @@ in this following code.
     "novakidDescription" : "A cube.",
     
     "inventoryIcon" : "cube.png",
-    "orientations" : [
-        {
+    "orientations" : [{
             "image" : "cube.png:<color>",
             "imagePosition" : [-8, 0],
             "frames" : 1,
@@ -581,8 +581,7 @@ in this following code.
             "spaceScan" : 0.1,
             "anchors" : [ "bottom" ],
             "collision" : "platform"
-        }
-    ]
+        }]
 }
 ```
 
@@ -614,12 +613,14 @@ The recipe file tells the game how to craft the object and which objects can cra
 
 ```json
 {
-    "input" : [
-    { "item" : "money",
-    "count" : 1 }
-    ],
-    "output" : { "item" :
-    "fo_cube", "count" : 1 },
+    "input" : [{ 
+        "item" : "money",
+        "count" : 1 
+    }],
+    "output" : { 
+                "item" : "fo_cube", 
+                "count" : 1 
+    },
     "groups" : [ "plain" ]
 }
 ```
@@ -637,11 +638,13 @@ One final important note is once you unlock a recipe for an item all associated 
 ### PLAYER.CONFIG
 Once the recipe file is made we have to “learn” the recipe so we can craft it. We can either do it through player.config where they automatically know the recipe or having another item on pick up teach the recipe through learnBlueprintOnPickup.
 ```json
-[ {
-"op" : "add",
-"path" : "/defaultBlueprints/tier1/-",
-"value" : { "item" : "fo_cube" }
-} ]
+[ 
+    {
+     "op" : "add",
+     "path" : "/defaultBlueprints/tier1/-",
+     "value" : { "item" : "fo_cube" }
+    } 
+]
 ```
 
 ### WRAPPING IT UP
@@ -893,10 +896,12 @@ The only difference between a crafting table and a decorative object are these f
         "config" : "/interface/windowconfig/crafting.config",
         "paneLayoutOverride" : {
             "windowtitle" : {
-            "title" : " Iron Crafting Table",
-            "subtitle" : " Heavy duty crafting!",
-            "icon" : {
-                "file" : "/interface/crafting/ironcraftingtable.png"
+                "title" : " Iron Crafting Table",
+                "subtitle" : " Heavy duty crafting!",
+                "icon" : {
+                    "file" : "/interface/crafting/ironcraftingtable.png"
+                }
+            }
         }
     }
 },
@@ -979,14 +984,14 @@ Recipes added through the player.config file will cause that item recipe to be l
 ```json
 [ 
     {
-        "op" : "add",
-        "path" : "/defaultBlueprints/tier1/-",
-        "value" : { "item" : "seblegs" }
+     "op" : "add",
+     "path" : "/defaultBlueprints/tier1/-",
+     "value" : { "item" : "seblegs" }
     },
     {
-        "op" : "add",
-        "path" : "/defaultBlueprints/tier1/-",
-        "value" : { "item" : "sebhelm" }
+     "op" : "add",
+     "path" : "/defaultBlueprints/tier1/-",
+     "value" : { "item" : "sebhelm" }
     } 
 ]
 ```
